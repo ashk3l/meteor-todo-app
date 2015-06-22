@@ -35,6 +35,10 @@ header {
     color: #fff;
 }
 
+#login-buttons .additional-link-container a {
+    color: #000;
+}
+
 h1 {
     font-size: 1.5em;
     margin: 0;
@@ -119,4 +123,8 @@ header .hide-completed {
 #login-buttons .login-button:hover,
 .accounts-dialog .login-button:hover {
     background: #9C27B0;
+}
+
+#login-buttons .login-close-text {
+    color: #000;
 }
