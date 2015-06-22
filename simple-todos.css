@@ -28,6 +28,11 @@ header {
 
 #login-buttons {
     display: block;
+    padding: 5px 0;
+}
+
+#login-buttons a {
+    color: #fff;
 }
 
 h1 {
@@ -106,15 +111,12 @@ header .hide-completed {
     margin-left: 5px;
 }
 
-@media (max-width: 600px) {
-    li {
-        padding: 12px 15px;
-    }
-    .search {
-        width: 150px;
-        clear: both;
-    }
-    .new-task input {
-        padding-bottom: 5px;
-    }
+#login-buttons .login-button,
+.accounts-dialog .login-button {
+    background: #7B1FA2;
+}
+
+#login-buttons .login-button:hover,
+.accounts-dialog .login-button:hover {
+    background: #9C27B0;
 }
